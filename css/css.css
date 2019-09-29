@@ -1,0 +1,256 @@
+body{
+    width:100%;
+    height:100%;
+	margin:0 auto;
+	background: url(../img/homebg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+*{
+	font-family:Tahoma, Arial, Microsoft yahei, sans-serif !important;
+}
+img{
+	border:0;
+	max-width: 100%; 
+}
+a{
+  text-decoration: none;
+  transition-duration: 0.3s;
+  border-radius: 8%;
+  text-decoration: none;
+}
+
+/* 
+-------------  公用按钮 -------------
+*/
+.logoWhite {
+    width: 88px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    z-index: 9999;
+}
+
+.inforBtnnav{
+	width:auto;
+	min-height: 1px;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    margin-right: 20px;
+}
+.rightinfo_icon {
+    width: 40px;
+    min-height: 40px;
+    padding: 16px 10px 0px 10px;
+    float: right;
+}
+
+.Hicon a{
+    width:40px;
+    height:40px;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    background:url(../img/icon_home.png) center center no-repeat;
+    background-size: 100%;
+
+    text-decoration: none;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+}
+.Hicon a:hover{
+    width:40px;
+    height:40px;
+    background:url(../img/icon_home_hover.png) center center no-repeat;
+    background-size: 100%;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#fullicon a{
+	width:40px;
+	height:40px;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    background:url(../img/icon_full2.png) center center no-repeat;
+    background-size: 100%;
+    text-decoration: none;
+    transition-duration: 0.3s;
+
+}
+#fullicon a:hover{
+	width:40px;
+	height:40px;
+    background:url(../img/icon_full2_hover.png) center center no-repeat;
+    background-size: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 
+-------------  首页面 -------------
+*/
+
+.welcomebg{
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(bg);
+    background-size: 100% 100%;
+}
+
+.hBox{
+	width:100%;
+	height:100%;
+}
+
+.hright{
+	width:100%;
+    /*width:76%;*/
+	height:100%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+
+.hright_Title{
+	width:100%;
+	min-height: 1px;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 140px;
+}
+.hright_Title_t1{
+	font-size: 48px;
+	line-height: 16px;
+	color:#ffffff;
+}
+.hright_Title_t2{
+	font-size: 16px;
+	line-height: 48px;
+	color: rgba(255,255,255,.65);
+}
+
+.hright_menuBox{
+	width:64%;
+	min-height: 1px;
+	overflow: hidden;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	margin-top: -65px;
+	margin-left: -32%;
+}
+
+.hright_BoxSpace{
+	width:3%;
+	min-height: 1px;
+	overflow: hidden;
+	float: left;
+}
+.hright_BoxB{
+	width:17.6%;
+	min-height: 1px;
+	overflow: hidden;
+	float: left;
+	margin-bottom: 25px;
+}
+.hright_BoxB a{
+	width:90%;
+	min-height: 1px;
+	overflow: hidden;
+	display:block;
+    line-height: 24px;
+    padding: 18px 0px 18px 0px;
+	/*line-height: 60px;*/
+	border:2px solid rgba(255,255,255,.15);
+	text-decoration: none;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	margin:0 auto;
+
+}
+.hright_BoxB a:hover{
+	text-decoration: none;
+	background-color: #fff;
+	color:#000;
+}
+
+.menu_first_bg{
+    width: 140px;
+    min-height: 1px;
+    overflow: hidden;
+    position: fixed;
+    right:100px;
+    top: 0;
+    z-index: 9;
+}
+.menu_first_Box{
+    width: auto;
+    min-height: 1px;
+    overflow: hidden;
+    padding: 16px 0px;
+    background-color: #ffffff;
+    margin-top: 64px;
+
+    border-radius:6px;
+}
+.menu_first_Box ul{
+    padding: 0px;
+    margin: 0px;
+}
+.menu_first_Box ul li{
+    list-style: none;
+}
+.menu_first_Box ul li a{
+    width: 100%;
+    min-height: 1px;
+    overflow: hidden;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color:#000000;
+}
+.menu_first_Box ul li a:hover{
+    background-color: #aeaeae;
+}
+.menu_first_Btn{
+    width: auto;
+    min-height: 40px;
+    line-height: 40px;
+    padding: 16px 10px 0px 10px;
+    float: right;
+}
+.menu_first_Btn a{
+    width: auto;
+    min-height: 40px;
+    line-height: 40px;
+    float: right;
+    border-top: 1px solid rgba(255,255,255,.01);
+    border-top: 1px solid #ffffff\9;
+    font-size: 12px;
+    color:#ffffff;
+}
+.menu_first_Btn a:hover{
+    border-top: 1px solid #ffffff;
+}
+.menu_first_Btn a span{
+    display: block;
+    float: left;
+    
+}
+.menu_first_Btndown{
+    padding-top: 2px;
+    margin-left: 10px;
+}

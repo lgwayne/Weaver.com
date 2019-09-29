@@ -1,0 +1,135 @@
+#timeline {
+	width: 820px;
+	height: 300px;
+	overflow: hidden;
+	margin: 100px auto;
+	position: relative;
+	background: url(../img/time_line.png) left 73px repeat-x;
+	font-family: "微软雅黑" Georgia, serif;
+	margin-top: 40px;
+}
+
+#dates {
+	width: 740px;
+	height: 80px;
+	overflow: hidden;
+}
+
+#dates li {
+	list-style: none;
+	float: left;
+	width: 120px;
+    height: 68px;
+	font-size: 24px;
+	text-align: center;
+	background: url(../img/time_dot.png) center bottom no-repeat;
+}
+
+#dates a {
+	line-height: 38px;
+	padding-bottom: 10px;
+	font-size: 28px;
+	text-decoration: none;
+	color: #2E9FE2;
+	height: 60px;
+	display: block;
+}
+
+#dates a:hover {
+	color: #D36A31
+}
+
+#dates .selected {
+	font-size: 42px;
+	color: #D36A31;
+	background: url(../img/time_dot_active.png);
+	background-position-y: 35px;
+	background-position-x: 43px;
+	background-repeat: no-repeat;
+	/* z-index: 100000; */
+	height: 60px;
+	display: block;
+}
+
+#issues {
+	width: 800px;
+	height: 300px;
+	overflow: hidden;
+}
+
+#issues li {
+	width: 800px;
+	height: 160px;
+	list-style: none;
+	float: left;
+}
+
+#issues li h1 {
+	color: #ffcc00;
+	font-size: 42px;
+	margin: 20px 0;
+	text-shadow: #000 1px 1px 2px;
+}
+
+#issues li p {
+	font-size: 14px;
+	margin-right: 70px;
+	margin: 10px;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+.issuescontent {
+	width: 100%;
+	margin: auto;
+}
+
+.contentleft {
+	width: 210px;
+	height: 160px;
+	line-height: 160px;
+	text-align: center;
+	font-size: 50px;
+	float: left;
+	color: #D36A31;
+	font-weight: 700;
+}
+
+.contentright {
+	float: right;
+	text-align: left;
+	width: 517px;
+	font-size: 24px;
+	height: 160px;
+}
+
+.contentright p {
+	font-size: 18px !important;
+}
+
+#time_prev {
+	width: 90px;
+	height: 90px;
+	background: url(../img/time_left.png);
+	/* margin-top: -251px; */
+	/* margin-left: 66px; */
+	cursor: pointer;
+	margin-top: 25px;
+}
+
+#time_next {
+	width: 90px;
+	height: 90px;
+	background: url(../img/time_right.png);
+	margin-top: 25px;
+	/* margin-left: 871px; */
+	cursor: pointer;
+}
+
+#time_next:hover {
+	background:url(../img/time_right_hover.png);
+}
+
+#time_prev:hover {
+	background: url(../img/time_left_hover.png);
+}

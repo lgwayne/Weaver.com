@@ -1,0 +1,317 @@
+body {
+	background-image: url(../img/znh.jpg);
+	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	border: 0;
+}
+
+.nav_group {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo_left {
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.nav-right {
+	height: 40px;
+	margin-top: 30px;
+	float: right;
+}
+
+.nav-right * {
+	float: left;
+}
+
+.nav-right a {
+	position: relative;
+}
+
+.nav-right a span {
+	padding: 0 10px;
+	line-height: 40px;
+	color: #000;
+	font-size: 14px;
+	position: relative;
+	z-index: 2;
+}
+
+.nav-right i {
+	display: block;
+	width: 1px;
+	height: 20px;
+	padding: 10px 0;
+	margin-top: 10px;
+	background: #d5d5d5;
+}
+
+.nav-right .active:after {
+	content: "";
+	position: absolute;
+	top: -3px;
+	right: 0;
+	bottom: -3px;
+	left: 0;
+	background: #2555b1;
+	z-index: 1;
+}
+
+.nav-right .active span {
+	color: #fff;
+}
+
+.nav-right a span:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.nav-right .active span:hover {
+	color: #fff;
+}
+
+.tel_box {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.consult {
+	width: 50px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: #2555b1;
+}
+
+.consult * {
+	display: inline-block;
+	color: #fff;
+}
+
+.consult a i {
+	font-style: normal;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.consult a span {
+	font-size: 16px;
+}
+
+.consult:hover {
+	background: #1b2874;
+}
+
+.heihei {
+	margin-top: 140px;
+}
+
+.heihei h1 {
+	margin-bottom: 14px;
+	margin-top: 30px;
+	margin-left: 41%;
+}
+
+.heihei p {
+	margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+#menu_container {
+	width: 40%;
+	margin: 0 auto;
+	height: 377px;
+	min-width: 762px;
+	position: relative;
+}
+
+.menu_groups {
+	width: auto;
+	overflow: hidden;
+	height: 100%;
+}
+
+.menu_group_tiles {
+	margin: 0 auto;
+	margin-bottom: -5px;
+	width: 762px;
+	overflow: hidden;
+}
+
+.menu_group_tiles div {
+	width: 116px;
+	height: 91px;
+	background: #329bd2;
+	float: left;
+	margin: 7px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.menu_group_tiles .aa {
+	width: 148px;
+	height: 91px;
+}
+
+.menu_group_tiles div img {
+	opacity: 0.7;
+	max-width: 20px;
+	margin: 20px 48px;
+}
+
+.squartext {
+	margin-left: 20px;
+	display: block;
+	line-height: 1px;
+}
+
+.menu_group_tiles div:hover {
+	background-color: #3fa420;
+}
+
+.liuliu {
+	width: 234px;
+	height: 44px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	margin-left: 40%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.liuliu :hover {
+	background: blue;
+	color: #fff;
+}
+
+.bbc {
+	width: 100%;
+	height: 250px;
+	background: blue;
+}
+
+html {
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.heihei {
+	margin-top: 140px;
+}
+
+.menu_group_f2 {
+	width: 174px;
+	height: 162px;
+	background: blue;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.box span img {
+	width: 24px;
+	height: 24px;
+	margin: 15px;
+}
+
+.box span {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+}
+
+.box-2 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.box-3 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.box-4 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.box-5 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.active {
+	clear: both;
+}
+
+.menu_group_f1 {
+	width: 358px;
+	height: 105px;
+	background: blue;
+	margin-left: 10px;
+	float: left;
+}
+
+.mmq .ti {
+	line-height: 70px;
+	font-size: 23px;
+	color: #fff;
+}
+
+.mmq span img {
+	width: 24px;
+	height: 24px;
+	margin-left: 35%;
+	margin-top: -5px;
+}
+
+.mmq .mmq-1 {
+	color: #fff;
+	margin-left: 20%;
+}
+
+.menu_group_f2:hover {
+	background: #0bee31;
+}
+
+.menu_group_f1:hover {
+	background: #0bee31;
+}
+
+.menu_group_f2 a:hover {
+	text-decoration: none;
+}
+
+.menu_group_f1 a:hover {
+	text-decoration: none;
+}
+
+.liuliu {
+	margin-bottom: 40px;
+	clear: both;
+}
+
+.login_btn {
+	margin-left: 43%;
+	margin-bottom: 20px;
+}

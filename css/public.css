@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style: none;
+}
+
+.nav_group{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo_left{
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.nav-right{
+	height: 40px;
+	margin-top: 30px;
+	float: right;
+}
+.nav-right *{
+	float: left;
+}
+.nav-right a{
+	position: relative;
+}
+.nav-right a span{
+	padding: 0 10px;
+	line-height: 40px;
+	color: #000;
+	font-size: 14px;
+	position: relative;
+	z-index: 2;
+}
+.nav-right i{
+	display: block;
+	width: 1px;
+	height: 20px;
+	margin: 10px 0;
+	margin-top: 10px;
+	background: #d5d5d5;
+}
+.nav-right .active:after{
+	content: "";
+	position: absolute;
+	top: -3px;
+	right: 0;
+	bottom: -3px;
+	left: 0;
+	background: #2555b1;
+	z-index: 1;
+}
+.nav-right .active span{
+	color: #fff !important;
+}
+.nav-right .current span{
+	color: #2555b1;
+}
+.nav-right a span:hover{
+	color: red;
+	text-decoration: none;
+}
+.nav-right .active span:hover{
+	color: #fff;
+}
+.tel_box{
+	position: absolute;
+    top: -5px;
+	right: 10px;
+}
+.consult{
+	width: 50px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: #2555b1;
+	z-index: 999;
+}
+.consult *{
+	display: inline-block;
+	color: #fff;
+}
+.consult a i{
+	font-style: normal;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.consult a span{
+	font-size: 16px;
+}
+.consult:hover{
+	background: green;
+}
+
+
+.footer .f-top{
+	padding: 30px 0 20px;
+	overflow: hidden;
+	background: rgba(37,85,177,0.7);
+}
+.footer .f-left{
+	width: 970px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.footer .f-left ul{
+	float: left;
+}
+.footer .f-left ul li{
+	margin-right: 50px;
+	color: #fff;
+}
+.footer .f-left ul li a{
+	color: #d5d5d5;
+	
+}
+.footer .f-left ul li h4{
+	margin-bottom: 20px;
+}
+.footer .f-right{
+	float: left;
+	border-left: 1px solid #d5d5d5;
+	margin-top: 30px;
+}
+.footer .f-right a{
+	display: block;
+	width: 180px;
+	padding: 10px 20px 10px 50px;
+	border: 1px solid #fff;
+	border-radius: 46px;
+	margin: 10px 50px;
+}
+.footer .f-right a:first-child{
+	background: url('../img/erweima.png') no-repeat;
+	background-position: 25px;
+	background-size: auto 60%;
+}
+.footer .f-right a:last-child{
+	background: url('../img/chat.png') no-repeat;
+	background-position: 25px;
+	background-size: auto 60%;
+}
+.footer .f-right a span{
+	font-size: 16px;
+	color: #fff;
+	margin-left: 15px;
+}
+.footer .f-right a:first-child:hover{
+	text-decoration: none;
+	background: #5cb85c url('../img/erweima.png') no-repeat;
+	background-position: 25px;
+	background-size: auto 60%;
+	border: 1px solid #5cb85c;
+}
+.footer .f-right a:last-child:hover{
+	text-decoration: none;
+	background: #5cb85c url('../img/chat.png') no-repeat;
+	background-position: 25px;
+	background-size: auto 60%;
+	border: 1px solid #5cb85c;
+}
+.f-bottom{
+	padding: 10px 0;
+	text-align: center;
+	background: #fff;
+}
+.f-bottom p a{
+	color: #666;
+}
+.f-bottom p a:hover{
+	text-decoration: none;
+}

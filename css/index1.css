@@ -1,0 +1,131 @@
+
+body {
+	background-image: url(../img/znh.jpg);
+	font-family: "微软雅黑";
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.econtent {
+	position: relative;
+	margin-bottom: 20px;
+	margin-left: 25%;
+
+}
+
+.tit {
+	text-align: left;
+	margin-top: 140px;
+	padding-bottom: 14px;
+	padding-left: 15%;
+
+}
+
+.menu_group_f2 {
+	width: 174px;
+	height: 162px;
+	background: #329bd2;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.box span img {
+	width: 24px;
+	height: 24px;
+	margin: 15px;
+}
+
+.box span {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+}
+
+.box-2 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.box-3 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.box-4 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.box-5 span {
+	font-size: 12px;
+	color: #fff;
+	margin-left: 25px;
+}
+
+.active {
+	clear: both;
+	}
+
+.menu_group_f1 {
+	width: 358px;
+	height: 105px;
+	background: #329bd2;
+	margin-left: 10px;
+	float: left;
+}
+
+.mmq .ti {
+	line-height: 70px;
+	font-size: 23px;
+	color: #fff;
+}
+
+.mmq span img {
+	width: 24px;
+	height: 24px;
+	margin-left: 35%;
+	margin-top: -5px;
+}
+
+.mmq .mmq-1 {
+	color: #fff;
+	margin-left: 20%;
+}
+
+.menu_group_f2:hover {
+	background: #0bee31;
+}
+
+.menu_group_f1:hover {
+	background: #0bee31;
+}
+
+.menu_group_f2 a:hover {
+	text-decoration: none;
+}
+
+.menu_group_f1 a:hover {
+	text-decoration: none;
+}
+
+.liuliu {
+	margin-bottom: 40px;
+	clear: both;
+}
+
+.login_btn{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.ye{
+	text-align: center;
+	margin-left: -58%;
+}

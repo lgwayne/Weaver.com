@@ -1,0 +1,332 @@
+
+body{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    background-size: 100% 100%;
+    background-image: url(../img/gn_bg.jpg);
+}
+* {
+	font-family: "微软雅黑", arial;
+	box-sizing: content-box;
+}
+
+.login_btn{
+	    width: 200px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+.bat{
+	width: 92%;
+}
+
+.menu_group{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.menu_group  .menu_group_tiles{
+    height:100%;
+    overflow:hidden;
+}
+
+.menu_group  .menu_group_tiles  .tileitem{
+    height: 70px;
+    background: #4e8fe0;
+}
+.menu_group  .menu_group_tiles  .tilesquare{
+    width: 30%;
+    text-align: center;
+}
+
+.menu_group  .menu_group_gap{
+    width: 30px;
+    float: right;
+    height: 100%;
+}
+
+#menu_container{
+    width: 40%;
+    margin: 0 auto;
+    height: 377px;
+    box-sizing: content-box !important;
+    min-width: 762px;
+    position: relative;
+}
+
+.menu_share{
+    float: right;
+    height: 100%;
+    width: 90px;
+}
+.menu_groups{
+    overflow: hidden;
+    height: 100%;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.bfc{
+    overflow: hidden;
+    height: 100%;
+}
+.lgap{
+    margin-left: 10px;
+}
+.vgap{
+    margin-bottom: 10px;
+}
+.rgap{
+    margin-right: 10px;
+}
+.squartext{
+    margin-top: 3px;
+    display: inline-block;
+    width: 42px;
+    padding: 10px 10px;
+    line-height: 22px;
+}
+
+.tiletitle{
+    font-size: 16px;
+    color: #fff;
+}
+.rectantitle{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.rectantitledes{
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #9FC2EF;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.rectantitleforright{
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: right;
+}
+.rectantitledesforright{
+    margin-right: 15px;
+    margin-top: 8px;
+    color: #9FC2EF;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.tile_vrectan_1{
+    height: 150px;
+    background: #4e8fe0;
+    width: 30%;
+    text-align: center;
+}
+.tile_vrectan_2{
+    height: 150px;
+    background: #4e8fe0;
+    width: 100%;
+    text-align: center;
+}
+.tiles_vcontainer{
+    height: 100%;
+}
+#menu_container   .tilecomponent:hover{
+    background-color: #53c048;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(83,192,72,0.3)  ;
+}
+.vrectancontainer{
+    display: inline-block;width: 32px
+}
+.vrectancontainer .i{
+    width: 32px;height: 32px;display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+#content{
+    padding-top:70px;
+}
+.weaver_btn{
+    display: inline-block;
+    padding: 5px 42px;
+    border-radius: 3px;
+    border: 2px solid #588add;
+    color: #a1b4db;
+    cursor: pointer;
+}
+
+.weaver_dialog{
+   position: absolute;
+   top:72px;
+   height: 620px;
+}
+.weaver_dialog  .animateoverlay{
+    width: 0px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    transition-property: left,right,top,bottom;
+    transition-duration: .5s;
+}
+.weaver_dialog  .animateoverlay .weaver_dialogbody{
+    height: 100%;
+}
+
+.e8_container{
+    width: 1000px;
+    height: 700px;
+}
+
+.e8_container .e8_left{
+    width: 180px;
+    float: left;
+    height: 100%;
+    background: #2a2d34;
+    z-index: 10;
+}
+
+.e8_container .e8_left .e8_logo{
+    width: 100%;
+    background-color: #008afd;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.e8_container .e8_right{
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    background: #fff;
+}
+.e8_container .e8_right .e8_head{
+    height: 40px;
+    position: relative;
+    background: #006ec6;
+}
+.e8_container .e8_right .e8_menuswrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 350px;
+    height: 40px;
+    z-index: 10;
+    overflow: hidden;
+}
+.e8_container .e8_right .e8_menus{
+    width: 300px;
+    color: #A4CCEB;
+    float: left;
+}
+.e8_container .e8_right .e8_menu{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.e8_menusmore{
+    width: 35px;
+    float: right;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: #0783e5;
+    background-image: url(../img/nav.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.e8_usemore{
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    left: 352px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #0783e5;
+    color: #fff;
+}
+
+.e8_modulename{
+    color: #959698;
+    background-color: #2a2d34;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 20px;
+}
+.e8_submenu{
+   height: 36px;
+    background-color: #2a2d34;
+    cursor: pointer;
+}
+.e8_submenu.subactive{
+    background-color: #646d7f;
+}
+.middlehelper{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.e8_submenu img{
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-right: 8px;
+}
+.e8_submenu span{
+    vertical-align: middle;
+    color: #fff;
+}
+.e8_silideritem{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    left: 20px;
+    bottom: 0;
+}
+
+.e8_menulight{
+   color: #fff;
+}
+.e8_close{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 10px;
+}
+.e8_close:hover{
+    background-color: #015294;
+}
+.e8_silideritem {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    left: 20px;
+    bottom: 0;
+}
+.e8_silideritem img{
+	width: 750px;
+}
+.weaver_title {
+    position: relative;
+    width: 760px;
+    overflow: auto;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+    background: #fff;
+    color: #333;
+    padding: 20px 20px 0px 20px;}

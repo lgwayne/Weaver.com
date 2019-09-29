@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>泛微智能办公平台</title>
+		<script src="js/jquery-3.4.0.min.js"></script>
+		<!-- 全局样式 -->
+		<link href="css/css.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			html,
+			body,
+			.container,
+			.content-wrap {
+				overflow: hidden;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</head>
+	<!-- 全局JS -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".menu_first_Btn a").mouseenter(function() {
+				$(".menu_first_bg").show();
+			});
+			$(".menu_first_bg").mouseleave(function() {
+				$(".menu_first_bg").hide();
+			});
+		});
+		var _height = 0;
+		$(".hright_BoxB a").each(function(n) {
+			if($(this).height() > _height) {
+				_height = $(this).height();
+			}
+		});
+		$(".hright_BoxB a").height(_height);
+	</script>
+
+	<body>
+		<div class="welcomebg" align="">
+			<div class="logoWhite">
+				<a href="">
+					<img src="img/logoWhite.png">
+				</a>
+			</div>
+			<!-- 菜单切换 -->
+			<div class="menu_first_bg" style="display:none;">
+				<div class="menu_first_Box">
+					<ul>
+						<li>
+							<a href="">智能化</a>
+						</li>
+						<li>
+							<a href="#">平台化</a>
+						</li>
+						<li>
+							<a href="#">全程电子化</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- info -->
+			<div class="inforBtnnav">
+				<div id="fullicon" class="rightinfo_icon">
+					<a href="">
+					</a>
+				</div>
+				<div class="Hicon rightinfo_icon">
+					<a href="javascript:history.back(-1)">
+					</a>
+				</div>
+				<div class="menu_first_Btn">
+					<a href="#">
+						<span>智能化</span>
+						<span class="menu_first_Btndown">﹀</span>
+					</a>
+				</div>
+
+			</div>
+			<!-- 菜单 -->
+			<div class="hBox">
+				<div class="hright">
+					<div class="hright_Title">
+						<span class="hright_Title_t1">智能化&nbsp;·&nbsp;场景体验 </span><br>
+						<span class="hright_Title_t2">Intelligent, Platform and Digital Process Automation</span>
+					</div>
+					<!-- 菜单合计 -->
+					<div class="hright_menuBox">
+						<!-- 1 -->
+						<div class="hright_BoxB">
+							<a href="#">智能填写</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">智能查询
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能办事
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能流程
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能知识
+							</a>
+						</div>
+						<!-- 2 -->
+						<div class="hright_BoxB">
+							<a href="#">
+								智能行政
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能人力资源
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能请假
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能商旅
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能报销
+							</a>
+						</div>
+						<!-- 3 -->
+						<div class="hright_BoxB">
+							<a href="#">
+								智能日程
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能合同
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能考勤
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能报表
+							</a>
+						</div>
+						<div class="hright_BoxSpace"></div>
+						<div class="hright_BoxB">
+							<a href="#">
+								智能综合办公
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
